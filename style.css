@@ -1,19 +1,60 @@
-h1:hover{
-    color: goldenrod;
-    font-size: 60px;
-    
+.poppins-thin {
+    font-family: "Poppins", system-ui;
+    font-weight: 100;
 }
-input:focus{
-    color: aqua;
-    font-size: large;
-    background-color: bisque;
+body{
+    font-family: "Poppins", system-ui; 
+    margin: 0px;
 }
-li:nth-child(odd){
-    color: red;
+h1{
+    font-size: 50px;
 }
-li::before{
-    content:"new ";
-    font-size: 10px;
-    color: goldenrod;
+.hightlight{
+    color: orange;
+}
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half img{
+    width: 100%;
+    padding-top: 5%;
+}
 
+/* Background banner set. */
+.banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 600px;
+    padding-bottom: 150px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato );
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 700px;
+}
+.button:hover{
+    background-color: tomato;
+    font-weight: bold;
+}
+p{
+    color: dimgray;
+}
+h2{
+    font-size: 40px;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#journey{
+    margin-left: 2%;
 }

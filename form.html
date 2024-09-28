@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hire Us - HealingHaven</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Hire Us</h1>
+    <p>Please fill out the form below to request our services. We will get back to you shortly!</p>
+    <form action="/submit" method="POST">
+      <!-- Customer Information Section -->
+      <h2>Customer Information</h2>
+      <label for="customer-name">Full Name:</label>
+      <input type="text" id="customer-name" name="customer_name" required>
+
+      <label for="customer-email">Email Address:</label>
+      <input type="email" id="customer-email" name="customer_email" required>
+
+      <label for="customer-phone">Phone Number:</label>
+      <input type="tel" id="customer-phone" name="customer_phone" required>
+
+      <label for="customer-gender">Gender:</label>
+      <select id="customer-gender" name="customer_gender" required>
+        <option value="">Select</option>
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+        <option value="other">Other</option>
+      </select>
+
+      <!-- Service Request Section -->
+      <h2>Service Request</h2>
+      <label for="service-type">Type of Service Needed:</label>
+      <select id="service-type" name="service_type" required>
+        <option value="">Select</option>
+        <option value="personal-counseling">Personal Counseling</option>
+        <option value="group-therapy">Group Therapy</option>
+        <option value="mental-health-workshop">Mental Health Workshop</option>
+      </select>
+
+      <label for="preferred-date">Preferred Date:</label>
+      <input type="date" id="preferred-date" name="preferred_date" required>
+
+      <label for="description">Describe Your Needs:</label>
+      <textarea id="description" name="description" rows="4" required></textarea>
+
+      <!-- Submit Button -->
+      <button type="submit">Submit Request</button>
+    </form>
+  </div>
+</body>
+</html>
