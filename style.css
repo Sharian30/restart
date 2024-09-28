@@ -1,0 +1,19 @@
+h1:hover{
+    color: goldenrod;
+    font-size: 60px;
+    
+}
+input:focus{
+    color: aqua;
+    font-size: large;
+    background-color: bisque;
+}
+li:nth-child(odd){
+    color: red;
+}
+li::before{
+    content:"new ";
+    font-size: 10px;
+    color: goldenrod;
+
+}
