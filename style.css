@@ -58,3 +58,30 @@ h2{
 #journey{
     margin-left: 2%;
 }
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+    padding: 1%;
+    background-color: white;
+}
+
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,rgb(219, 62, 35));
+    border-image-slice: 1;
+}
+#ach{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
